@@ -1,0 +1,396 @@
+/* Reset default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+/* Top Header Styling */
+header {
+    position: fixed; /* Ensures the header stays at the top */
+    z-index: 1000; /* Keeps it above other elements */
+    height: 100px;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adds spacing inside the header */
+    border-bottom: 5px solid red;
+}
+
+/* Logo Styling */
+.closeup-name {
+    width: 128px;
+    height: 45px;
+    margin-top: 0; /* No need for top margin */
+}
+
+/* Header Links */
+.header-contains a {
+    color: #fff;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 100px; /* Aligns links vertically */
+}
+.header-contains a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* Search Bar */
+.search-div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 250px;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+    border: 0.8px solid #fff;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Align icon inside the search bar */
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none; /* Prevent clicks on the icon */
+}
+/* Body Container */
+.body-container {
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin-top: 100px; /* Adds space for body content */
+    color: white; /* Text color for content */
+    justify-content: center;
+}
+/* First headline */
+.body-main-header{
+    height: fit-content;
+    width: max-content;
+    margin-top: 10px;
+}
+.first-img{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+.headline-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+}
+
+.image-box{
+    background-color: rgb(1, 0, 0);
+    justify-content: center;
+    height: 500px;
+    display: flex;
+}
+.column-1,.column-2{
+ width: 50vw;
+}
+.column-1{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+.column-2{
+    text-align: center;
+    background-image: ;
+    width: max-content;
+    height: 900px;
+
+}
+.first-blue-img{
+    height: 400px;
+}
+.right-img{
+    height: 400px;
+    margin-left: 2px;
+}
+.column-1-container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background-color: rgb(21, 83, 227);
+}
+.column-2-container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background-color: red;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+#column-1-para{
+    padding-left: 10px;
+    float: left;
+    color:#fff;
+}
+.column-1-container i{
+    color: #fff;
+    padding-left: 250px;
+}
+.column-2-container i{
+    color: #fff;
+    padding-left: 410px;
+}
+
+.second-image-box{
+    background-color: rgb(1, 0, 0);
+    justify-content: center;
+    height: 500px;
+    display: flex;
+}
+.second-column-1,.second-column-2{
+ width: 50vw;
+}
+.second-column-1{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+.second-column-2{
+    text-align: center;
+    background-image: ;
+    width: max-content;
+    height: 900px;
+
+}
+.second-right-img{
+    height: 400px;
+}
+.second-left-img{
+    height: 400px;
+    margin-left: 2px;
+}
+.second-column-1-container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 3px;
+    height: 40px;
+    background-color: rgb(85, 93, 183);
+}
+.second-column-2-container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background-color: rgba(231, 245, 223, 0.384);
+    margin-left: 2px;
+    margin-top: 1px;
+}
+#column-1-para{
+    padding-left: 10px;
+    float: left;
+    color:#fff;
+}
+.second-column-1-container i{
+    color: #fff;
+    padding-left: 400px;
+}
+.second-column-2-container i{
+    color: #fff;
+    padding-left: 250px;
+}
+.trending-footer{
+    width: 100%;
+    height: 600px;
+}
+.trending-heading-div{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: max-content;
+}
+.underlineof-trending{
+    height: 2px;
+    width: 30px;
+    border-bottom: 5px solid red;
+}
+.underline-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.trending-footer-images{
+    display: flex;
+    justify-content: center;
+}
+.trending-1st-img,.trending-2nd-img,.trending-3rd-img{
+    height: 300px;
+}
+.trending-column-heading{
+    display: flex;
+    justify-content: center;
+}
+.trending-column-heading-para p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-small;
+}
+.star{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.star i{
+    font-size: xx-small;
+    color: gray;
+}
+#star-rated{
+    color: orange;
+}
+.trending-column-heading-3rd{
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+}
+.featured-headline-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}.featured-footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.featured-headline{
+    padding-top: 10px;
+    color: #fff;
+}
+.featured-underline-div{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.featured-underline{
+    width: 50px;
+    margin-top: 5px;
+    height: 6px;
+    background-color: rgba(255, 5, 5, 0.527);
+}
+.featured-image1,.featured-image2,.featured-image3{
+    height: 300px;
+    margin: 10px;
+
+}
+.featured-image-box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.featured-image-headline{
+    color: #fff;
+}
+.featured-image-headline-div{
+    display: flex;
+    justify-content: center;
+}
+.featured-para p{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 12px;
+    font-weight: 100;
+}
+.featured-column-1,.featured-column-2,.featured-column-3{
+    width: 100px;
+}
+.featured-para{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.main-footer-left{
+    width: 30%;
+}
+.main-footer-right{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.signup-heading h4{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.signup-btn{
+    background-color: lightgreen;
+    width: 100px;
+    height: 30px;
+}
+.signup-button-div{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+}
+.signup-heading{
+    display: flex;
+    justify-content: center;
+}
+.stayupto{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons i{
+    margin: 10px;
+}
+.main-footer-right ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.main-footer-right li{
+    margin-top: 10px;
+}
+#list-headline{
+    font-size: 20px;
+}.featured-image1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.featured-image1,.featured-image2,.featured-image3{
+    transition: transform 0.5s;
+}
+.featured-image2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.featured-image3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
